@@ -17,5 +17,5 @@ paypal
       });
     },
   })
-  .render("#paypal-button-container"); /
-  /
+  .render("#paypal-button-container");
+//
