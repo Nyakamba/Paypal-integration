@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayPal Integration</title>
+  </head>
+  <body>
+    <!-- PayPal Button Container -->
+    <div id="paypal-button-container"></div>
+
+    <!-- User Information Form -->
+    <form id="user-info-form">
+      <!-- Add necessary input fields for user information -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="name">Email:</label>
+      <input type="text" id="email" name="email" required />
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" required />
+
+      <button type="button" onclick="processPayment()">Submit Payment</button>
+    </form>
+
+    <!-- PayPal JavaScript SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID"></script>
+
+    <!--  JavaScript file -->
+    <script src="js/paypal-integration.js"></script>
+  </body>
+</html>
