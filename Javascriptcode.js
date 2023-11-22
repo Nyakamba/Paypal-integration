@@ -18,4 +18,4 @@ paypal
     },
   })
   .render("#paypal-button-container");
-//
+// Paypal button rendering
